@@ -1,0 +1,20 @@
+{
+    "name": "iocphp/framework",
+    "description": "iocphp framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iocphp\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "caocao",
+            "email": "pgcao@qq.com"
+        }
+    ],
+    "require": {}
+}
