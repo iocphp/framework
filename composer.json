@@ -1,20 +1,41 @@
 {
-    "name": "iocphp-com/framework",
+    "name": "iocphp/framework",
+    "type": "library",
     "description": "iocphp framework",
-    "license": "MIT",
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "caocao",
+            "email": "pgcao@qq.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/error-handler": "^5.4",
+        "symfony/http-foundation": "^5.4",
+        "symfony/http-kernel": "^5.4",
+        "symfony/routing": "^5.4",
+        "symfony/runtime": "^5.4",
+        "mpociot/pipeline": "^1.0",
+        "psr/container": "^1.0",
+        "filp/whoops": "^2.15"
+    },
     "autoload": {
         "psr-4": {
-            "Iocphp\\": "src/"
+            "iocphp\\": "src/"
         },
         "files": [
             "src/Functions.php"
         ]
     },
-    "authors": [
-        {
-            "name": "caocao",
-            "email": "pgcao@qq.com"
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
         }
-    ],
-    "require": {}
+    },
+    "minimum-stability": "dev"
 }

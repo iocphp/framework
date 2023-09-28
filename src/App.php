@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Iocphp;
+namespace iocphp;
 
 class App
 {
